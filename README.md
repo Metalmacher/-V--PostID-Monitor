@@ -1,29 +1,15 @@
-# thread_id_monitor
+# /v/ Current Post ID monitor
 
+Simple Vue client + Express API to monitor current post ID in /v/, and calculate the chance of 5's.
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+In root:
+```Shell
+npm i
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
+In backend folder:
+```Javascript
+node ./server.js
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
