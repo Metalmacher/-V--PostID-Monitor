@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <chan-watcher></chan-watcher>
   </div>
 </template>
+
+<script lang="js">
+import ChanWatcher from "./components/ChanWatcher";
+export default {
+ components: {
+   ChanWatcher
+ }
+}
+</script>
 
 <style lang="scss">
 #app {
