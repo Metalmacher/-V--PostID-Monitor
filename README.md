@@ -1,6 +1,6 @@
 # /v/ Current Post ID monitor
 
-Simple Vue client + Express API to monitor current post ID in /v/, and calculate the chance of 5's.
+Simple Vue client + Express API to monitor current post ID on 4chan's /v/, and calculate the chance of 5's.
 ## Project setup
 In root:
 ```Shell
